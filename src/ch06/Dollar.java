@@ -5,9 +5,9 @@ package ch06;
  * @since 2019-06-06
  */
 
-public class Dollar extends Money{
+class Dollar extends Money{
 
-	public Dollar(int amount) {
+	Dollar(int amount) {
 		this.amount = amount;
 	}
 

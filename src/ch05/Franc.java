@@ -5,15 +5,15 @@ package ch05;
  * @since 2019-06-06
  */
 
-public class Franc {
+class Franc {
 
 	private int amount;
 
-	public Franc(int amount) {
+	Franc(int amount) {
 		this.amount = amount;
 	}
 
-	public Franc times(int multiplier) {
+	Franc times(int multiplier) {
 		return new Franc(amount * multiplier);
 	}
 

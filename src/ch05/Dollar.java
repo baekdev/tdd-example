@@ -5,15 +5,15 @@ package ch05;
  * @since 2019-06-06
  */
 
-public class Dollar {
+class Dollar {
 
 	private int amount;
 
-	public Dollar(int amount) {
+	Dollar(int amount) {
 		this.amount = amount;
 	}
 
-	public Dollar times(int multiplier) {
+	Dollar times(int multiplier) {
 		return new Dollar(amount * multiplier);
 	}
 

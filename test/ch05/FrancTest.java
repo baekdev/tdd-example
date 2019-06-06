@@ -1,6 +1,5 @@
 package ch05;
 
-import ch05.Dollar;
 import junit.framework.TestCase;
 
 /**

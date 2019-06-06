@@ -5,13 +5,13 @@ package ch06;
  * @since 2019-06-06
  */
 
-public class Franc extends Money {
+class Franc extends Money {
 
-	public Franc(int amount) {
+	Franc(int amount) {
 		this.amount = amount;
 	}
 
-	public Franc times(int multiplier) {
+	Franc times(int multiplier) {
 		return new Franc(amount * multiplier);
 	}
 
