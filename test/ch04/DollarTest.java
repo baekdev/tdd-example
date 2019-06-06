@@ -1,10 +1,12 @@
+package ch04;
+
 import junit.framework.TestCase;
 
 /**
  * @author DiveTech
  * @since 2019-06-06
  */
-public class TotalTest extends TestCase {
+public class DollarTest extends TestCase {
 
 	public void test_multiplication() {
 		Dollar five = new Dollar(5);
