@@ -1,7 +1,7 @@
 import junit.framework.TestCase;
 
 /**
- * @author Kayla
+ * @author DiveTech
  * @since 2019-06-06
  */
 public class TotalTest extends TestCase {
